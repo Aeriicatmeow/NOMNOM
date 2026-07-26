@@ -34,7 +34,8 @@ If your Mod is found to be containing any
 All your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
 
 2.2
-- If Custom DLL or Executable Files in your Mod Release(s) are found to be inconsistent with the Source Code (e.g. containing additional code that is not present in the Available Source Code for the Open-Sourced DLLs or Executable Files), and these inconsistencies are found to be breaching Zero Tolerance Clause 2.1, all your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
+
+If Custom DLL or Executable Files in your Mod Release(s) are found to be inconsistent with the Source Code (e.g. containing additional code that is not present in the Available Source Code for the Open-Sourced DLLs or Executable Files), and these inconsistencies are found to be breaching Zero Tolerance Clause 2.1, all your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
 
 #### 3. Other Requirements
 - In order for NOMNOM to automatically discover new Mod Releases for Registered Mods, they must be available as GitHub Repository Release Package.
