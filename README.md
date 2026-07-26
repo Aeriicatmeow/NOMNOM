@@ -29,7 +29,7 @@ If your Mod is found to be containing any
   -  Obfuscated Code
   -  Malicious Code
   -  Making Unwarranted Changes to the users' computers
-  -  Purposeful Interference with Nuclear Option in any way so that it might not launch or might terminate during run time
+  -  Purposeful Interference with Nuclear Option in any way so that it might not launch or might terminate during runtime
 
 All your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
 
