@@ -15,7 +15,8 @@ NOMNOM is a Community Project, and is not affiliated with Shockfront Studios, th
 ### Mod Submission Acceptance Policy:
 
 #### 1. Open-Source Mandate
-- If your Mod contains custom DLL or Executable Files, those DLL or Executable Files Must Be Open-Sourced and the Source Code must not contain any obfuscation. Submission requests that do not comply will be denied.
+
+If your Mod contains custom DLL or Executable Files, those DLL or Executable Files Must Be Open-Sourced and the Source Code must not contain any obfuscation. Submission requests that do not comply will be denied.
   - Clarifications:
     - If your mod is an AddOn, e.g. a Blueprinter Aircraft Mod, or a Voice Pack, or similar AND Does Not contain any Custom DLL or Executable Files, there is no cause for concern.
     - During periods of Retroactive Enforcement of the Mod Submission Acceptance Policy, Owners of any Mods that are found to be in breach of this clause will be contacted privately and asked to comply and will be given a reasonable Grace Period. Failing to take action to ensure compliance before the Grace Period's deadline expires will result in delisting the specific Mod(s) that breach this clause.
@@ -23,7 +24,14 @@ NOMNOM is a Community Project, and is not affiliated with Shockfront Studios, th
 #### 2. Zero Tolerance Clauses
 
 2.1
-- If your Mod is found to be containing any obfuscated code, malicious code or otherwise making unwarranted changes to the users' computers, all your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
+
+If your Mod is found to be containing any
+  -  Obfuscated Code
+  -  Malicious Code
+  -  Making unwarranted changes to the users' computers
+  -  Purposefully interfering with Nuclear Option in any way so that it may not launch or terminates during run time
+
+All your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
 
 2.2
 - If Custom DLL or Executable Files in your Mod Release(s) are found to be inconsistent with the Source Code (e.g. containing additional code that is not present in the Available Source Code for the Open-Sourced DLLs or Executable Files), and these inconsistencies are found to be breaching Zero Tolerance Clause 2.1, all your submissions will be delisted and all your future submission requests will be denied. We have Zero Tolerance for any breaches.
