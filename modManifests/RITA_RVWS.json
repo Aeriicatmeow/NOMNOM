@@ -28,7 +28,7 @@
       "version": "2.0.2",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.33",
+      "gameVersion": "0.34",
       "downloadUrl": "https://github.com/muhimin01/no-rita-rvws/releases/download/2.0.2/RITA_RVWS_2.0.2.zip",
       "hash": "sha256:fcf20c5e25dcac931545de9191c7ac8c0d887a1b5251bfd970bfbfca78837cb6",
       "incompatibilities": [
