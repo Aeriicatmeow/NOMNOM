@@ -27,6 +27,15 @@
       "gameVersion": "0.33",
       "downloadUrl": "https://github.com/Nuclear-PCVR/NuclearOption-CobraButton/releases/download/Release/NOCobra.dll",
       "hash": "sha256:f26f4b2da6f8ecfa0e5c383ee2ac26c7bb8cdf793e12446612d34521f3442418"
+    },
+    {
+      "fileName": "NOCobra.dll",
+      "version": "1.1.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34",
+      "downloadUrl": "https://github.com/Nuclear-PCVR/NuclearOption-CobraButton/releases/download/V1.1.0/NOCobra.dll",
+      "hash": "sha256:d1cbb7633b4a68e4ddd855db23397b747d33e1d43db37009de024097fc386fe3"
     }
   ]
 }
