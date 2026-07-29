@@ -24,9 +24,9 @@
       "version": "0.34.0.0",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.33",
+      "gameVersion": "0.34",
       "downloadUrl": "https://github.com/pauel3312/PauelsRandomFixes/releases/download/v0.34.0.0/Pauel3312.PauelsRandomFixes.dll",
-      "hash": "sha256:a6df7ec531c5c22e5f2ae33f579322dccdf2b5e3e85ca64b0c8c758b9d75b42e"
+      "hash": "sha256:2a255385dfae5ab13be23a5f2d26619e1ade1c0fd71846348f26374fe28fd85d"
     },
     {
       "fileName": "Pauel3312.PauelsRandomFixes.dll",
