@@ -26,6 +26,19 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Aryx_F16M_KingViper_1.2.0.dll",
+      "version": "1.2.0",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/Aryx3D/Aryx-F-16M/releases/download/1.2.0/Aryx_F16M_KingViper_1.2.0.dll",
+      "hash": "sha256:a197e0d258537075f7f805c992ac20dc68e42a093c6c8cba70d7db614905ed43",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "1.8.17"
+      }
+    },
+    {
       "fileName": "Aryx_F16M_KingViper_1.1.9.dll",
       "version": "1.1.9",
       "category": "release",
@@ -299,5 +312,5 @@
       }
     }
   ],
-  "downloadCount": 63933
+  "downloadCount": 64114
 }
