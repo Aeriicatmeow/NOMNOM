@@ -1,12 +1,13 @@
 {
   "id": "blacknight2u.sarhcontrol",
   "displayName": "Radar Missile Control",
-  "description": "Host-controlled radar missile difficulty mod. Affects only AI-launched SARH and ARH missiles targeting human pilots; player weapons remain vanilla. Press F8 as host to cycle OFF (VANILLA), NERFED (50%), and DISABLED. Status text appears only when toggled.",
+  "description": "Host-configurable radar missile rules for SARH and ARH weapons. Press F7 to choose player/AI launch-target routes and adjust guidance, accuracy, thrust, and speed; F8 cycles OFF (VANILLA), NERFED, and DISABLED. Gameplay remains host-authoritative.",
   "tags": [
     "gameplay",
     "difficulty",
     "sarh",
     "arh",
+    "configurable",
     "host-only",
     "multiplayer"
   ],
@@ -24,13 +25,13 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
-      "fileName": "SARHControl-v0.4.1.zip",
-      "version": "0.4.1",
+      "fileName": "SARHControl-v0.5.0.zip",
+      "version": "0.5.0",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.33.4",
-      "downloadUrl": "https://github.com/blacknight2u/NuclearOption-RadarMissileControl/releases/download/v0.4.1/SARHControl-v0.4.1.zip",
-      "hash": "sha256:8f43cb60058a2a67d52d7086437ec4e8bacfa84c81dc7c7e28a91ec4bb11e754",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/blacknight2u/NuclearOption-RadarMissileControl/releases/download/v0.5.0/SARHControl-v0.5.0.zip",
+      "hash": "sha256:f7c7aa9a0d83c92cadcdf53a80fc171372662070f086e14a9cb855c982c725ba",
       "dependencies": [],
       "incompatibilities": []
     }
