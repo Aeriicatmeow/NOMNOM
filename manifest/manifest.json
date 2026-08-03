@@ -909,7 +909,7 @@
         }
       }
     ],
-    "downloadCount": 69622
+    "downloadCount": 69628
   },
   {
     "id": "aryx.f99",
@@ -1056,7 +1056,7 @@
         }
       }
     ],
-    "downloadCount": 38988
+    "downloadCount": 38992
   },
   {
     "id": "aryx.fs41",
@@ -1255,7 +1255,7 @@
         }
       }
     ],
-    "downloadCount": 34647
+    "downloadCount": 34655
   },
   {
     "id": "aryx.mc260",
@@ -1532,7 +1532,7 @@
         }
       }
     ],
-    "downloadCount": 70618
+    "downloadCount": 70624
   },
   {
     "id": "aryx.mig15",
@@ -1627,7 +1627,7 @@
         }
       }
     ],
-    "downloadCount": 26525
+    "downloadCount": 26528
   },
   {
     "id": "aryx.navex",
@@ -1709,7 +1709,7 @@
         }
       }
     ],
-    "downloadCount": 21211
+    "downloadCount": 21215
   },
   {
     "id": "aryx.rah72",
@@ -1869,7 +1869,7 @@
         }
       }
     ],
-    "downloadCount": 42169
+    "downloadCount": 42177
   },
   {
     "id": "AtomicFramework",
@@ -2065,7 +2065,7 @@
         }
       }
     ],
-    "downloadCount": 33406
+    "downloadCount": 33409
   },
   {
     "id": "blueprinter.ternion",
@@ -2080,7 +2080,7 @@
     "urls": [
       {
         "name": "info",
-        "url": "https://github.com/offiry0/trisurface_public/blob/main/README.md"
+        "url": "https://github.com/Combat787/ternion/blob/main/README.md"
       },
       {
         "name": "2082 discord",
@@ -2111,28 +2111,15 @@
         "category": "release",
         "type": "addon",
         "gameVersion": "0.34",
-        "downloadUrl": "https://github.com/Combat787/ternion/releases/download/1.0.0/FS-3.Ternion_1.0.1.nobp",
+        "downloadUrl": "https://github.com/Combat787/ternion/releases/download/1.0.1/FS-3.Ternion_1.0.1.nobp",
         "hash": "sha256:f8ddd073b7590f4e801edb11a3facc9fefa58e53260b4524ba7b271d0739b1fd",
         "extends": {
           "id": "com.nikkorap.blueprinter",
           "version": "1.8.21"
         }
-      },
-      {
-        "fileName": "FS-3.Ternion_1.0.0.nobp",
-        "version": "1.0.0",
-        "category": "release",
-        "type": "addon",
-        "gameVersion": "0.33",
-        "downloadUrl": "https://github.com/offiry0/trisurface_public/releases/download/1.0.0/FS-3.Ternion_1.0.0.nobp",
-        "hash": "sha256:86814fd7ec29893d674039e271961119e7642c436b81e795b18971ead311c6f2",
-        "extends": {
-          "id": "com.nikkorap.blueprinter",
-          "version": "1.8.19"
-        }
       }
     ],
-    "downloadCount": 86
+    "downloadCount": 105
   },
   {
     "id": "bote",
@@ -2284,7 +2271,7 @@
         }
       }
     ],
-    "downloadCount": 32061
+    "downloadCount": 32062
   },
   {
     "id": "CameraPresets",
@@ -3328,7 +3315,7 @@
         "hash": "sha256:c5acfa50210aca58ff226b9a07c82f11aed14553c97a31b8d5042862ab0ee1eb"
       }
     ],
-    "downloadCount": 64437
+    "downloadCount": 64442
   },
   {
     "id": "com.nikkorap.EditorPlus",
@@ -4538,7 +4525,7 @@
         }
       }
     ],
-    "downloadCount": 28104
+    "downloadCount": 28107
   },
   {
     "id": "klawshout_voice",
@@ -4659,7 +4646,7 @@
         "hash": "sha256:1cb21af1577180fcaec008f70bc9ca2e191de79335fed9817c64463e2d5b4a8c"
       }
     ],
-    "downloadCount": 9078
+    "downloadCount": 9080
   },
   {
     "id": "KR-EW.67",
@@ -4724,7 +4711,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 7941
+    "downloadCount": 7942
   },
   {
     "id": "LiveryDownloader",
@@ -7279,7 +7266,7 @@
         ]
       }
     ],
-    "downloadCount": 18526
+    "downloadCount": 18528
   },
   {
     "id": "no-autopilot-mod",
@@ -7669,7 +7656,7 @@
         "hash": "sha256:f526584e61ed46c25d10a0b46319f9e901fc5917d73dfcccc3aebb5ee0acaa5c"
       }
     ],
-    "downloadCount": 26029
+    "downloadCount": 26032
   },
   {
     "id": "NO-MissionMenuSearch",
@@ -8148,7 +8135,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 165
+    "downloadCount": 166
   },
   {
     "id": "NOFrameLimiter",
@@ -10005,7 +9992,7 @@
         "hash": "sha256:6d08fbb38d93e4a04c0f4530de491cc0b57a77fd3e0b201b7d6eb9f93302218d"
       }
     ],
-    "downloadCount": 8332
+    "downloadCount": 8333
   },
   {
     "id": "TarantulaTiltSensitivity",
@@ -10180,7 +10167,7 @@
         ]
       }
     ],
-    "downloadCount": 2861
+    "downloadCount": 2862
   },
   {
     "id": "ThirdFaction",
@@ -10576,7 +10563,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 12177
+    "downloadCount": 12179
   },
   {
     "id": "YawOnMouse",
