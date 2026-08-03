@@ -11,7 +11,7 @@
   "urls": [
     {
       "name": "info",
-      "url": "https://github.com/offiry0/trisurface_public/blob/main/README.md"
+      "url": "https://github.com/Combat787/ternion/blob/main/README.md"
     },
     {
       "name": "2082 discord",
@@ -47,19 +47,6 @@
       "extends": {
         "id": "com.nikkorap.blueprinter",
         "version": "1.8.21"
-      }
-    },
-    {
-      "fileName": "FS-3.Ternion_1.0.0.nobp",
-      "version": "1.0.0",
-      "category": "release",
-      "type": "addon",
-      "gameVersion": "0.33",
-      "downloadUrl": "https://github.com/offiry0/trisurface_public/releases/download/1.0.0/FS-3.Ternion_1.0.0.nobp",
-      "hash": "sha256:86814fd7ec29893d674039e271961119e7642c436b81e795b18971ead311c6f2",
-      "extends": {
-        "id": "com.nikkorap.blueprinter",
-        "version": "1.8.19"
       }
     }
   ],
