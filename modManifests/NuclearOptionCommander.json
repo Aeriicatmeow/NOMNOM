@@ -19,13 +19,13 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
-      "fileName": "NuclearOptionCommander.0.0.0.2.zip",
-      "version": "0.0.0.2",
+      "fileName": "NuclearOptionCommander0.1.2.0.zip",
+      "version": "0.1.2.0",
       "category": "Release",
       "type": "plugin",
-      "gameVersion": "0.33",
-      "downloadUrl": "https://github.com/DontKnowWhatImDoingHere/NOCommander/releases/download/0.0.0.2/NuclearOptionCommander.0.0.0.2.zip",
-      "hash": "sha256:b2626aca29a1d64d3a6a70f9a303ae58cee3f747500d8039d840b0833f54ceb7",
+      "gameVersion": "0.34",
+      "downloadUrl": "https://github.com/DontKnowWhatImDoingHere/NOCommander/releases/download/0.1.2.0/NuclearOptionCommander0.1.2.0.zip",
+      "hash": "sha256:b54c95de8296ae77025c348a71df541ba927935690af15473e8fa392477bc63f",
       "dependencies": [
         {
           "id": "BepInEx.ConfigurationManager",
