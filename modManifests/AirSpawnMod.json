@@ -21,6 +21,15 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "AirSpawnMod.dll",
+      "version": "1.1.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/mosdef31/NOAS/releases/download/v1.1.0/AirSpawnMod.dll",
+      "hash": "sha256:ae70107152735a666b547df74f80800e76a7e08585f4b8fae208be529fd5e796"
+    },
+    {
       "type": "plugin",
       "fileName": "AirSpawnMod.zip",
       "downloadUrl": "https://github.com/mosdef31/NOAS/releases/download/v1.0.0/AirSpawnMod.dll",
@@ -30,5 +39,5 @@
       "hash": "bbcffdcba57d78f653a3f979ccf6c5280fc57501e8d314d032f7ea1a5ab50e9f"
     }
   ],
-  "downloadCount": 550
+  "downloadCount": 853
 }

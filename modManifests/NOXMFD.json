@@ -20,6 +20,60 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "NOXMFD_0.18.1.zip",
+      "version": "0.18.1",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.18.1/NOXMFD_0.18.1.zip",
+      "hash": "sha256:3db5c37dedaf38294ff795bf77aab43479b35afbcad0da4f07ca1d35617e3343"
+    },
+    {
+      "fileName": "NOXMFD_0.18.0.zip",
+      "version": "0.18.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.18.0/NOXMFD_0.18.0.zip",
+      "hash": "sha256:54efdee54f0956e9f60c9efcd78f98262e0b658b441910e44e74a9327cdf3590"
+    },
+    {
+      "fileName": "NOXMFD_0.17.3.zip",
+      "version": "0.17.3",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.17.3/NOXMFD_0.17.3.zip",
+      "hash": "sha256:ef547f8aa1701499781226e0853c746624b8aea21b60b07a608dd3cc4d488922"
+    },
+    {
+      "fileName": "NOXMFD_0.17.2.zip",
+      "version": "0.17.2",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.17.2/NOXMFD_0.17.2.zip",
+      "hash": "sha256:516fa5e95b65e5a77367a09be0aa3ab77f06c707130fe0f6c93688bd682a0ce8"
+    },
+    {
+      "fileName": "NOXMFD_0.17.1.zip",
+      "version": "0.17.1",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.17.1/NOXMFD_0.17.1.zip",
+      "hash": "sha256:f55ad8792b0d45236db11b02d17454ee29abb0bab7a4b3ecc05d1b3702692da9"
+    },
+    {
+      "fileName": "NOXMFD_0.17.0.zip",
+      "version": "0.17.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.17.0/NOXMFD_0.17.0.zip",
+      "hash": "sha256:dc972fe640207690838d68ad97d4ca957d2bb9a600f7ad7bf12ef52a904da2ea"
+    },
+    {
       "fileName": "NOXMFD_0.16.3.zip",
       "version": "0.16.3",
       "category": "release",
@@ -164,5 +218,5 @@
       "hash": "sha256:dd5dc88fb3312e01872ffdd3a0b426506e3cc745417d6049283e0c2f041b84ac"
     }
   ],
-  "downloadCount": 351
+  "downloadCount": 601
 }

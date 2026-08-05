@@ -21,6 +21,21 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Com.Hellcat92.FuelBurnEnduranceTimer_3.0.0.dll",
+      "version": "3.0.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/xHellcat92x/NO-TargetGridRefHUD/releases/download/3.0.0/Com.Hellcat92.FuelBurnEnduranceTimer_3.0.0.dll",
+      "hash": "sha256:c60707dc020922c28b6362735a46f9e85f56d5025fcb70de3e708409cec06ce8",
+      "dependencies": [
+        {
+          "id": "BepInEx.ConfigurationManager",
+          "version": "18.4.1"
+        }
+      ]
+    },
+    {
       "fileName": "Com.Hellcat92.TargetGridRefHUD_2.1.0.dll",
       "version": "2.1.0",
       "category": "release",
@@ -66,5 +81,5 @@
       ]
     }
   ],
-  "downloadCount": 463
+  "downloadCount": 920
 }

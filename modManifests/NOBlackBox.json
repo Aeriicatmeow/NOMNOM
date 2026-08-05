@@ -1,7 +1,7 @@
 {
   "id": "NOBlackBox",
   "displayName": "NOBlackBox",
-  "description": "Tacview telemetry exporter for mission debriefing.",
+  "description": "DISCLAIMER: DUE TO API CHANGES IN 0.34, THIS MOD CAUSES SEVERE PERFORMANCE ISSUES. WILL FIX, BUT TRY TO AVOID USE FOR THE TIME BEING. Tacview telemetry exporter for mission debriefing.",
   "tags": [
     "mod",
     "QoL"
@@ -50,5 +50,5 @@
       ]
     }
   ],
-  "downloadCount": 4825
+  "downloadCount": 4942
 }
