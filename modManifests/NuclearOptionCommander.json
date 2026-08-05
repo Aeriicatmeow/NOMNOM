@@ -3,7 +3,7 @@
   "displayName": "NO Commander",
   "description": "RTS-style features for Nucklear Option - 3D unit command, unit spawning, supply and air missions",
   "tags": [
-    ""
+    "Gameplay"
   ],
   "urls": [
     {
@@ -12,7 +12,7 @@
     }
   ],
   "authors": [
-    ""
+    "rosa.clara"
   ],
   "githubOwner": "DontKnowWhatImDoingHere",
   "githubRepoName": "NOCommander",
