@@ -1,0 +1,43 @@
+{
+  "id": "aryx.weaponpack",
+  "displayName": "Aryx Weaponry Pack",
+  "description": "A weapon pack by Aryx featuring new cruise missiles, targeting pods, functional drop tanks, glide bombs and more!",
+  "tags": [
+    "mod",
+    "weapons",
+    "blueprinter",
+    "expeditionary"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/Aryx3D/AryxWeaponryPack/blob/main/README.md"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.gg/shipyard"
+    }
+  ],
+  "authors": [
+    "Aryx"
+  ],
+  "githubOwner": "Aryx3D",
+  "githubRepoName": "AryxWeaponryPack",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "AryxWeaponsPack_1.0.2.dll",
+      "version": "1.0.2",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/Aryx3D/AryxWeaponryPack/releases/download/1.0.2/AryxWeaponsPack_1.0.2.dll", 
+      "hash": "sha256:e73c6294de3486b4451278d0e2ceb9ace8e3114d16e1799607b4305ec24800f7",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "1.8.21"
+      }
+    },
+  ],
+  "downloadCount": 0
+}
