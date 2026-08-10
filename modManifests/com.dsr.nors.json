@@ -21,6 +21,15 @@
   "artifacts": [
     {
       "fileName": "1NORS.zip",
+      "version": "0.7.7",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/NORehabRocket/NORS---Nuclear-Option-Radio-System/releases/download/0.7.7/1NORS.zip",
+      "hash": "sha256:d4446afda611ee8200861afeedd414536e770389af874a95b2620704c9e383d7"
+    },
+    {
+      "fileName": "1NORS.zip",
       "version": "0.7.4",
       "category": "release",
       "type": "plugin",
@@ -101,5 +110,5 @@
       "hash": "sha256:4b4211b339eda6c48142bcf9c190ed322acf3cfe2fefdfa3898af379e82dbd47"
     }
   ],
-  "downloadCount": 1593
+  "downloadCount": 1683
 }
