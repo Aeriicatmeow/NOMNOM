@@ -20,7 +20,7 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
-      "fileName": "NOCameraImprovements_1.0.0.dll ",
+      "fileName": "NOCameraImprovements_1.0.0.dll",
       "version": "1.0.0",
       "category": "release",
       "type": "plugin",
