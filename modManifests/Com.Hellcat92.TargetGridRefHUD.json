@@ -21,6 +21,21 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Com.Hellcat92.TargetGridRefHUD_2.2.0.dll",
+      "version": "2.2.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.33",
+      "downloadUrl": "https://github.com/xHellcat92x/NO-TargetGridRefHUD/releases/download/2.2.0/Com.Hellcat92.TargetGridRefHUD_2.2.0.dll",
+      "hash": "sha256:fbd206f4db032867e806c7aa4a25ae02820ac4e85341a8d2ab606246672c09ca",
+      "dependencies": [
+        {
+          "id": "BepInEx.ConfigurationManager",
+          "version": "18.4.1"
+        }
+      ]
+    },
+    {
       "fileName": "Com.Hellcat92.TargetGridRefHUD_2.1.0.dll",
       "version": "2.1.0",
       "category": "release",
