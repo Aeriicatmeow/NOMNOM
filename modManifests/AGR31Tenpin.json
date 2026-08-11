@@ -1,0 +1,39 @@
+{
+  "id": "AGR31Tenpin",
+  "displayName": "AGR-31 Tenpin",
+  "description": "Air launched saturation rocket artillery, in a light 7 tube pod and a heavy 19 tube pod. An unguided 90 mm rocket, 12 to 15 km lofted, rippling at 0.08 s so six pods put 42 rounds in the air in about three seconds or 114 in about nine. Counter SHORAD from standoff, with light anti armour on a direct hit. Draws its own weapon HUD: an artillery mode with ground designation, predicted impact, salvo footprint and a release cue, and a direct mode with a continuously computed impact point. Carried by the A-19, SAH-46 Chicane, UH-90 Ibis, T/A-30 Compass and VT-7 Vagrant. Requires Blueprinter. The asset bundle ships inside the DLL, so it is one file.",
+  "tags": [
+    "mod",
+    "Weapon",
+    "blueprinter"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/mosdef31/NO-AGR-31-Tenpin/blob/main/README.md"
+    }
+  ],
+  "authors": [
+    "mosdef31"
+  ],
+  "githubOwner": "mosdef31",
+  "githubRepoName": "NO-AGR-31-Tenpin",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "TenpinMod.dll",
+      "version": "0.9.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34",
+      "downloadUrl": "https://github.com/mosdef31/NO-AGR-31-Tenpin/releases/download/v0.9.0/TenpinMod.dll",
+      "hash": "sha256:41c79a01a557936605a556816877a63a72d8d8fffc559cc1ca025f88a1597ba7",
+      "dependencies": [
+        {
+          "id": "com.nikkorap.blueprinter",
+          "version": "1.8.21"
+        }
+      ]
+    }
+  ]
+}
