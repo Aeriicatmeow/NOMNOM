@@ -1,0 +1,27 @@
+{
+  "id": "NoModBar",
+  "displayName": "NO Mod Bar",
+  "description": "A KSP-style persistent toolbar for Nuclear Option. Any mod's panel can register with the bar and be opened/closed by clicking its button; hold Left Alt while flying to free the mouse cursor.",
+  "tags": ["mod", "QoL", "UI"],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/kkingsbe/no-modbar"
+    }
+  ],
+  "authors": ["kkingsbe"],
+  "githubOwner": "kkingsbe",
+  "githubRepoName": "no-modbar",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "nomodbar-1.0.0.zip",
+      "version": "1.0.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34",
+      "downloadUrl": "https://github.com/kkingsbe/no-modbar/releases/download/v1.0.0/nomodbar-1.0.0.zip",
+      "hash": "sha256:d642242bb836ab78e33f8e50982972a4813d0da2b23328044d833e649ed83393"
+    }
+  ]
+}
