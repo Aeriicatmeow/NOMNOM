@@ -108,6 +108,61 @@
     "downloadCount": 3931
   },
   {
+    "id": "AGR31Tenpin",
+    "displayName": "AGR-31 Tenpin",
+    "description": "Air launched saturation rocket artillery, in a light 7 tube pod and a heavy 19 tube pod. An unguided 90 mm rocket, 12 to 15 km lofted, rippling at 0.08 s so six pods put 42 rounds in the air in about three seconds or 114 in about nine. Counter SHORAD from standoff, with light anti armour on a direct hit. Draws its own weapon HUD: an artillery mode with ground designation, predicted impact, salvo footprint and a release cue, and a direct mode with a continuously computed impact point. Carried by the A-19, SAH-46 Chicane, UH-90 Ibis, T/A-30 Compass and VT-7 Vagrant. Requires Blueprinter. The asset bundle ships inside the DLL, so it is one file.",
+    "tags": [
+      "mod",
+      "Weapon",
+      "blueprinter"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/mosdef31/NO-AGR-31-Tenpin/blob/main/README.md"
+      }
+    ],
+    "authors": [
+      "mosdef31"
+    ],
+    "githubOwner": "mosdef31",
+    "githubRepoName": "NO-AGR-31-Tenpin",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "TenpinMod.dll",
+        "version": "0.9.1",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/mosdef31/NO-AGR-31-Tenpin/releases/download/v0.9.1/TenpinMod.dll",
+        "hash": "sha256:db2825083a8c1bd9bc41c8d46f747e1e5c4823694bd775536db294f1f54ae16d",
+        "dependencies": [
+          {
+            "id": "com.nikkorap.blueprinter",
+            "version": "1.8.21"
+          }
+        ]
+      },
+      {
+        "fileName": "TenpinMod.dll",
+        "version": "0.9.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/mosdef31/NO-AGR-31-Tenpin/releases/download/v0.9.0/TenpinMod.dll",
+        "hash": "sha256:41c79a01a557936605a556816877a63a72d8d8fffc559cc1ca025f88a1597ba7",
+        "dependencies": [
+          {
+            "id": "com.nikkorap.blueprinter",
+            "version": "1.8.21"
+          }
+        ]
+      }
+    ],
+    "downloadCount": 213
+  },
+  {
     "id": "AIAircraftLimit",
     "displayName": "AI Aircraft Limit",
     "description": "Increase the maximum active AI aircraft per faction. Extends mission editor slider up to 128 and optionally overrides the limit at runtime.",
@@ -138,7 +193,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 7183
+    "downloadCount": 7184
   },
   {
     "id": "AircraftWaypoints",
@@ -564,7 +619,7 @@
         }
       }
     ],
-    "downloadCount": 79112
+    "downloadCount": 79125
   },
   {
     "id": "aryx.f99",
@@ -711,7 +766,7 @@
         }
       }
     ],
-    "downloadCount": 43277
+    "downloadCount": 43284
   },
   {
     "id": "aryx.fs41",
@@ -923,7 +978,7 @@
         }
       }
     ],
-    "downloadCount": 40038
+    "downloadCount": 40059
   },
   {
     "id": "aryx.mc260",
@@ -1200,7 +1255,7 @@
         }
       }
     ],
-    "downloadCount": 75596
+    "downloadCount": 75605
   },
   {
     "id": "aryx.mig15",
@@ -1295,7 +1350,7 @@
         }
       }
     ],
-    "downloadCount": 28111
+    "downloadCount": 28114
   },
   {
     "id": "aryx.navex",
@@ -1377,7 +1432,7 @@
         }
       }
     ],
-    "downloadCount": 24202
+    "downloadCount": 24207
   },
   {
     "id": "aryx.rah72",
@@ -1537,7 +1592,7 @@
         }
       }
     ],
-    "downloadCount": 46727
+    "downloadCount": 46735
   },
   {
     "id": "aryx.weaponpack",
@@ -1632,7 +1687,7 @@
         }
       }
     ],
-    "downloadCount": 4821
+    "downloadCount": 4840
   },
   {
     "id": "AShM500Yashma",
@@ -1827,7 +1882,7 @@
   {
     "id": "blacknight2u.sarhcontrol",
     "displayName": "Radar Missile Control",
-    "description": "Host-configurable radar missile rules for SARH and ARH weapons. Press F7 to choose player/AI launch-target routes and adjust guidance, accuracy, thrust, and speed; F8 cycles OFF (VANILLA), NERFED, and DISABLED. Gameplay remains host-authoritative.",
+    "description": "Host-controlled SARH and ARH missile presets. Press F7 to configure missile types, AI/player engagements, guidance, accuracy, thrust, and speed. Press F8 to cycle Vanilla, Preset 1, and Preset 2. Multiplayer settings remain host-authoritative.",
     "tags": [
       "gameplay",
       "difficulty",
@@ -1928,7 +1983,7 @@
         }
       }
     ],
-    "downloadCount": 35319
+    "downloadCount": 35324
   },
   {
     "id": "blueprinter.ternion",
@@ -1982,7 +2037,7 @@
         }
       }
     ],
-    "downloadCount": 6947
+    "downloadCount": 6954
   },
   {
     "id": "bote",
@@ -2134,7 +2189,7 @@
         }
       }
     ],
-    "downloadCount": 33497
+    "downloadCount": 33501
   },
   {
     "id": "CameraPresets",
@@ -2242,7 +2297,7 @@
         "hash": "sha256:aae68ea57f93cfe6046ccc954fa8ff7e35f0c364dcb541d14da24299130c8863"
       }
     ],
-    "downloadCount": 142
+    "downloadCount": 143
   },
   {
     "id": "ChicanePusherLab",
@@ -2549,7 +2604,7 @@
         "hash": "sha256:837dfb023b5ba23d8ac9683ec23b03b3d6a7d35c3e2c4ed97ac9cd9187baca13"
       }
     ],
-    "downloadCount": 2715
+    "downloadCount": 2716
   },
   {
     "id": "com.bongus.simplewso",
@@ -2838,7 +2893,7 @@
         "hash": "sha256:1ce74fc011e60199c4f98ca8c05d154e5be21470e0ebc336097890ac9f49a4da"
       }
     ],
-    "downloadCount": 2709
+    "downloadCount": 2710
   },
   {
     "id": "Com.Hellcat92.TargetGridRefHUD",
@@ -2978,7 +3033,7 @@
         ]
       }
     ],
-    "downloadCount": 1970
+    "downloadCount": 1971
   },
   {
     "id": "com.JUSTJ7780.globalsoundreplacerno",
@@ -3120,7 +3175,7 @@
         ]
       }
     ],
-    "downloadCount": 186
+    "downloadCount": 187
   },
   {
     "id": "com.justj7780.nuclearoption.targetpresets",
@@ -3229,7 +3284,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 2300
+    "downloadCount": 2302
   },
   {
     "id": "com.minec.CameraImprovements",
@@ -3262,7 +3317,7 @@
         "hash": "sha256:ceca2a5c7c816187da113d34dd6d07c2903ddedac0f5f8deefd03388d916b5ef"
       }
     ],
-    "downloadCount": 18
+    "downloadCount": 19
   },
   {
     "id": "com.nikkorap.blueprinter",
@@ -3353,7 +3408,7 @@
         "hash": "sha256:c5acfa50210aca58ff226b9a07c82f11aed14553c97a31b8d5042862ab0ee1eb"
       }
     ],
-    "downloadCount": 67885
+    "downloadCount": 67894
   },
   {
     "id": "com.nikkorap.EditorPlus",
@@ -3455,7 +3510,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 2131
+    "downloadCount": 2134
   },
   {
     "id": "DefensiveAutoTarget",
@@ -3764,7 +3819,7 @@
         ]
       }
     ],
-    "downloadCount": 10319
+    "downloadCount": 10321
   },
   {
     "id": "FrontlineMap",
@@ -3822,7 +3877,7 @@
         "downloadUrl": "https://github.com/9138noms/FrontlineMap/releases/download/v1.2.1/FrontlineMap.dll"
       }
     ],
-    "downloadCount": 14081
+    "downloadCount": 14083
   },
   {
     "id": "FunnelGunSightMod",
@@ -3892,7 +3947,7 @@
         "hash": "sha256:4f8491978cc99c9bdd0c5be8a2e351613f8f0e34887c3954b852ef536ca00676"
       }
     ],
-    "downloadCount": 2898
+    "downloadCount": 2900
   },
   {
     "id": "galaxy2_voice",
@@ -4441,7 +4496,7 @@
         }
       }
     ],
-    "downloadCount": 29482
+    "downloadCount": 29488
   },
   {
     "id": "klawshout_voice",
@@ -4562,7 +4617,7 @@
         "hash": "sha256:1cb21af1577180fcaec008f70bc9ca2e191de79335fed9817c64463e2d5b4a8c"
       }
     ],
-    "downloadCount": 10048
+    "downloadCount": 10051
   },
   {
     "id": "KR-EW.67",
@@ -4627,7 +4682,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 8432
+    "downloadCount": 8434
   },
   {
     "id": "LiveryDownloader",
@@ -4660,7 +4715,7 @@
         "hash": "sha256:3632f0ebf44e752a506526c95b5cd244356abce8318cb6868f925755b5c08f81"
       }
     ],
-    "downloadCount": 568
+    "downloadCount": 569
   },
   {
     "id": "LiveryManager",
@@ -4811,7 +4866,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 4758
+    "downloadCount": 4759
   },
   {
     "id": "LocalizationPatch.Belarusian",
@@ -6952,7 +7007,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-CustomMapLoader/releases/download/v3.0.0/MapLoader_v3.0.0.zip"
       }
     ],
-    "downloadCount": 2023
+    "downloadCount": 2024
   },
   {
     "id": "MFDCustomizer",
@@ -7093,7 +7148,46 @@
         "hash": "sha256:0ece977a524ed76bf99b79704e661fdf9f3dea74cddcaafa9e558d36b0640c56"
       }
     ],
-    "downloadCount": 688
+    "downloadCount": 690
+  },
+  {
+    "id": "MissileCameraRemoteControl",
+    "displayName": "Missile Camera: Remote Control",
+    "description": "Remote-control DL/SATCOM munitions via MissileCamera fullscreen: aim, throttle, afterburner, and formation follow.",
+    "tags": [
+      "QoL",
+      "Weapons"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/Mursisru/MissileCamera-Remote-Control"
+      }
+    ],
+    "authors": [
+      "Mursisru"
+    ],
+    "githubOwner": "Mursisru",
+    "githubRepoName": "MissileCamera-Remote-Control",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "MissileCameraRC-2-0-0.zip",
+        "version": "2.0.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/Mursisru/MissileCamera-Remote-Control/releases/download/2.0.0/MissileCameraRC-2-0-0.zip",
+        "hash": "sha256:a6ae7d5d9a84c4e17070043ce213d682b79abd4d47c9697c4e1820381b9ac08e",
+        "dependencies": [
+          {
+            "id": "MissileCamera",
+            "version": "2.0.0"
+          }
+        ]
+      }
+    ],
+    "downloadCount": 299
   },
   {
     "id": "MissileCamNO",
@@ -7144,7 +7238,7 @@
         "hash": "sha256:d2d6b04918625ad889134c850969e917b24ed32dbce47da645fbbe1e74489419"
       }
     ],
-    "downloadCount": 711
+    "downloadCount": 712
   },
   {
     "id": "MusicRandomizer",
@@ -7210,7 +7304,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 266
+    "downloadCount": 267
   },
   {
     "id": "neutral.both.brakes",
@@ -7322,7 +7416,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 46
+    "downloadCount": 47
   },
   {
     "id": "neutral.rain",
@@ -7764,7 +7858,7 @@
         ]
       }
     ],
-    "downloadCount": 19393
+    "downloadCount": 19394
   },
   {
     "id": "no-autopilot-mod",
@@ -8154,7 +8248,7 @@
         "hash": "sha256:f526584e61ed46c25d10a0b46319f9e901fc5917d73dfcccc3aebb5ee0acaa5c"
       }
     ],
-    "downloadCount": 27888
+    "downloadCount": 27893
   },
   {
     "id": "NO-MissionMenuSearch",
@@ -8834,6 +8928,75 @@
     "downloadCount": 949
   },
   {
+    "id": "NoModBar",
+    "displayName": "NO Mod Bar",
+    "description": "A KSP-style persistent toolbar for Nuclear Option. Any mod's panel can register with the bar and be opened/closed by clicking its button; hold Left Alt while flying to free the mouse cursor.",
+    "tags": [
+      "mod",
+      "QoL",
+      "UI"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/kkingsbe/no-modbar"
+      }
+    ],
+    "authors": [
+      "kkingsbe"
+    ],
+    "githubOwner": "kkingsbe",
+    "githubRepoName": "no-modbar",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "nomodbar-1.0.0.zip",
+        "version": "1.0.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/kkingsbe/no-modbar/releases/download/v1.0.0/nomodbar-1.0.0.zip",
+        "hash": "sha256:d642242bb836ab78e33f8e50982972a4813d0da2b23328044d833e649ed83393"
+      }
+    ],
+    "downloadCount": 0
+  },
+  {
+    "id": "NOVor",
+    "displayName": "NO VOR CDI",
+    "description": "VOR-style cockpit HUD CDI plus a searchable navigation panel with heading-up HSI, airport ownership, runway courses, and live diversion telemetry.",
+    "tags": [
+      "mod",
+      "QoL",
+      "HUD",
+      "Navigation"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/kkingsbe/no-vor"
+      }
+    ],
+    "authors": [
+      "kkingsbe"
+    ],
+    "githubOwner": "kkingsbe",
+    "githubRepoName": "no-vor",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "novor-1.0.0.zip",
+        "version": "1.0.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/kkingsbe/no-vor/releases/download/v1.0.0/novor-1.0.0.zip",
+        "hash": "sha256:5b2f92e108a326c96f66b54da1b2c3e89c62e9ec7738a9c1167d9100821ba87e"
+      }
+    ],
+    "downloadCount": 0
+  },
+  {
     "id": "NOVRMod",
     "displayName": "Unofficial VR Preview Mod",
     "description": "Collection of fixes to get UUVR work with Nuclear Option",
@@ -9145,7 +9308,7 @@
         ]
       }
     ],
-    "downloadCount": 15527
+    "downloadCount": 15531
   },
   {
     "id": "NOXMFD",
@@ -9454,7 +9617,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 5240
+    "downloadCount": 5241
   },
   {
     "id": "NuclearOption-InfiniteAmmo",
@@ -9753,7 +9916,7 @@
         ]
       }
     ],
-    "downloadCount": 4405
+    "downloadCount": 4407
   },
   {
     "id": "NuclearOptionCommander",
@@ -9948,7 +10111,7 @@
         ]
       }
     ],
-    "downloadCount": 2508
+    "downloadCount": 2509
   },
   {
     "id": "Ornithopter",
@@ -10086,7 +10249,7 @@
         "hash": "sha256:9829adb5135f08d0b129453cb685628a7def130371f8f9770f5d3baf28feb66e"
       }
     ],
-    "downloadCount": 8904
+    "downloadCount": 8906
   },
   {
     "id": "Pauel3312.NOKillWeapons",
@@ -10146,7 +10309,7 @@
         "hash": "sha256:b8899af8d033a66218213b8a041f3d6ca5eddcb21e6617205822eab7cbdd477e"
       }
     ],
-    "downloadCount": 1713
+    "downloadCount": 1714
   },
   {
     "id": "Pauel3312.NOMissingWeapons",
@@ -10284,7 +10447,7 @@
         "hash": "sha256:141f8733266f619096b85699271f673c1afc0404d30912d3c25817f2c9b22756"
       }
     ],
-    "downloadCount": 705
+    "downloadCount": 706
   },
   {
     "id": "PilotModelReplacer",
@@ -10531,7 +10694,7 @@
         "hash": "sha256:28596c0f68258f3e4d024c0ed89c8b5653fd86b1e619f945f9f7080ee6859734"
       }
     ],
-    "downloadCount": 131199
+    "downloadCount": 131201
   },
   {
     "id": "SARAAM1",
@@ -10573,6 +10736,40 @@
       }
     ],
     "downloadCount": 1225
+  },
+  {
+    "id": "Sitrep",
+    "displayName": "SITREP",
+    "description": "Reads in-game chat aloud via Kokoro TTS with an optional radio DSP effect and chat overlay.",
+    "tags": [
+      "mod",
+      "QoL",
+      "voice"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/kkingsbe/sitrep"
+      }
+    ],
+    "authors": [
+      "kkingsbe"
+    ],
+    "githubOwner": "kkingsbe",
+    "githubRepoName": "sitrep",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "sitrep-1.0.0.zip",
+        "version": "1.0.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34",
+        "downloadUrl": "https://github.com/kkingsbe/sitrep/releases/download/v1.0.0/sitrep-1.0.0.zip",
+        "hash": "sha256:81a7192c8b138162096000b2d6608eb089316eca2fafc29cb350f00d1ead84ea"
+      }
+    ],
+    "downloadCount": 0
   },
   {
     "id": "skyeye_voice",
@@ -10842,7 +11039,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 4769
+    "downloadCount": 4770
   },
   {
     "id": "TernionVaporTuner",
@@ -11061,7 +11258,7 @@
         "downloadUrl": "https://github.com/9138noms/ThirdFaction/releases/download/v1.0.0/ThirdFaction.dll"
       }
     ],
-    "downloadCount": 5125
+    "downloadCount": 5126
   },
   {
     "id": "UndelayedThrottle",
@@ -11310,7 +11507,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 12732
+    "downloadCount": 12733
   },
   {
     "id": "YawOnMouse",

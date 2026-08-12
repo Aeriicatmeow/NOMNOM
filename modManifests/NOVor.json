@@ -2,11 +2,21 @@
   "id": "NOVor",
   "displayName": "NO VOR CDI",
   "description": "VOR-style cockpit HUD CDI plus a searchable navigation panel with heading-up HSI, airport ownership, runway courses, and live diversion telemetry.",
-  "tags": ["mod", "QoL", "HUD", "Navigation"],
-  "urls": [
-    { "name": "info", "url": "https://github.com/kkingsbe/no-vor" }
+  "tags": [
+    "mod",
+    "QoL",
+    "HUD",
+    "Navigation"
   ],
-  "authors": ["kkingsbe"],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/kkingsbe/no-vor"
+    }
+  ],
+  "authors": [
+    "kkingsbe"
+  ],
   "githubOwner": "kkingsbe",
   "githubRepoName": "no-vor",
   "autoUpdateArtifacts": "True",
@@ -20,5 +30,6 @@
       "downloadUrl": "https://github.com/kkingsbe/no-vor/releases/download/v1.0.0/novor-1.0.0.zip",
       "hash": "sha256:5b2f92e108a326c96f66b54da1b2c3e89c62e9ec7738a9c1167d9100821ba87e"
     }
-  ]
+  ],
+  "downloadCount": 0
 }

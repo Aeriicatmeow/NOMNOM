@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "MissileCameraRemoteControl",
   "displayName": "Missile Camera: Remote Control",
   "description": "Remote-control DL/SATCOM munitions via MissileCamera fullscreen: aim, throttle, afterburner, and formation follow.",
@@ -34,5 +34,6 @@
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 299
 }
