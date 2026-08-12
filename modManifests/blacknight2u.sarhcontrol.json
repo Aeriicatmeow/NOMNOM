@@ -1,7 +1,7 @@
 {
   "id": "blacknight2u.sarhcontrol",
   "displayName": "Radar Missile Control",
-  "description": "Host-configurable radar missile rules for SARH and ARH weapons. Press F7 to choose player/AI launch-target routes and adjust guidance, accuracy, thrust, and speed; F8 cycles OFF (VANILLA), NERFED, and DISABLED. Gameplay remains host-authoritative.",
+  "description": "Host-controlled SARH and ARH missile presets. Press F7 to configure missile types, AI/player engagements, guidance, accuracy, thrust, and speed. Press F8 to cycle Vanilla, Preset 1, and Preset 2. Multiplayer settings remain host-authoritative.",
   "tags": [
     "gameplay",
     "difficulty",
