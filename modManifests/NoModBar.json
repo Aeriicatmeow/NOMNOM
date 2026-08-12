@@ -9,7 +9,9 @@
       "url": "https://github.com/kkingsbe/no-modbar"
     }
   ],
-  "authors": ["kkingsbe"],
+  "authors": [
+    "kkingsbe"
+  ],
   "githubOwner": "kkingsbe",
   "githubRepoName": "no-modbar",
   "autoUpdateArtifacts": "True",
@@ -23,5 +25,6 @@
       "downloadUrl": "https://github.com/kkingsbe/no-modbar/releases/download/v1.0.0/nomodbar-1.0.0.zip",
       "hash": "sha256:d642242bb836ab78e33f8e50982972a4813d0da2b23328044d833e649ed83393"
     }
-  ]
+  ],
+  "downloadCount": 0
 }
