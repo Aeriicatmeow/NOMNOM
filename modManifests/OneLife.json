@@ -27,9 +27,9 @@
         "version": "0.1.0",
         "category": "Release",
         "type": "plugin",
-        "gameVersion": "0.34",
+        "gameVersion": "0.34.2",
         "downloadURL": "https://github.com/Uniplast/One-Life/releases/download/v0.1.0/OneLife.zip",
-        "hash": "sha256:217ed7cd8c77be3939955d909e3f6109af9b83983a9ff5a2b6f4f6fad1f7b8d5"
+        "hash": "sha256:b67c47b7b20b8987ceab4660588798debbe545b3059d581a4689337562597ea2"
       }
     ]
 }
