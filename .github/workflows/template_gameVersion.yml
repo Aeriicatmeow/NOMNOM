@@ -1,0 +1,11 @@
+title: "Feature Request"
+description: "Please describe your feature request"
+labels: "feature-request"
+template:
+  fields:
+    - label: "Requestor"
+      type: "text"
+      required: true
+    - label: "Description"
+      type: "text"
+      required: true

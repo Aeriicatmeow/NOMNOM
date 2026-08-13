@@ -1,0 +1,4 @@
+on:
+  issue:
+    types: [template]
+    template: issues/template_gameVersion.yml # replace with your issue template name
