@@ -1,0 +1,48 @@
+name: Update gameVersion
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process_issue:
+    # Runs ONLY if the newly added label is 'gameVersion Update'
+    if: github.event.label.name == 'gameVersion Update'
+    runs-on: windows-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue to JSON
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_ID: ${{ github.event.issue.number }}
+        run: |
+          .\.github\scripts\parse_issue.ps1 -IssueBody $env:ISSUE_BODY -IssueId $env:ISSUE_ID
+
+      - name: Report Failure
+        if: failure() && steps.parse.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $ErrorText = Get-Content error.txt -Raw -ErrorAction SilentlyContinue
+          if (-not $ErrorText) { $ErrorText = "An error occurred during parsing." }
+          $Body = '❌ **Validation Failed:**' + "`n`n" + '```text' + "`n" + $ErrorText + "`n" + '```'
+          gh issue comment ${{ github.event.issue.number }} -b $Body
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add gameVersionUpdateCache/
+          git commit -m "Update gameVersion cache for issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue close ${{ github.event.issue.number }} --reason "completed"

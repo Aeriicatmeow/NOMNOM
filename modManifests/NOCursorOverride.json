@@ -23,10 +23,10 @@
       "version": "0.0.2",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.33",
+      "gameVersion": "0.34.2",
       "downloadUrl": "https://github.com/KopterBuzz/NOCursorOverride/releases/download/0.0.2/NOCursorOverride-0.0.2.zip",
       "hash": "sha256:0af5bd580d11285c5723828da014cf99f00e784dd14b7b40ea700a63e127449b"
     }
   ],
-  "downloadCount": 682
+  "downloadCount": 683
 }

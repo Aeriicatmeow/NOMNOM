@@ -1,7 +1,7 @@
 {
   "id": "NoModBar",
   "displayName": "NO Mod Bar",
-  "description": "A KSP-style persistent toolbar for Nuclear Option. Any mod's panel can register with the bar and be opened/closed by clicking its button; hold Left Alt while flying to free the mouse cursor.",
+  "description": "Give compatible Nuclear Option mods one shared home with a persistent KSP-style toolbar at the top of every game screen. Click a registered mod's button to open or close its panel, hover to see its name, and hold a rebindable key while flying to free the cursor from mouse-look. Includes in-game position, button-size, and keybind controls plus a load-order-safe registration API for mod authors.",
   "tags": [
     "mod",
     "QoL",
@@ -30,5 +30,5 @@
       "hash": "sha256:d642242bb836ab78e33f8e50982972a4813d0da2b23328044d833e649ed83393"
     }
   ],
-  "downloadCount": 1
+  "downloadCount": 3
 }

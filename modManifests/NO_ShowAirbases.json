@@ -30,7 +30,7 @@
       "version": "0.34.1.1",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.34.1",
+      "gameVersion": "0.34.2",
       "downloadUrl": "https://github.com/Appulcake/NO_ShowAirbases/releases/download/v0.34.1.1/NO_ShowAirbases.dll",
       "hash": "sha256:7921ee863ed51facae15b5c84bb8bb38a8578cf3faf2a71470fbc94dafa3de90",
       "dependencies": [
@@ -45,5 +45,5 @@
       ]
     }
   ],
-  "downloadCount": 120
+  "downloadCount": 126
 }
