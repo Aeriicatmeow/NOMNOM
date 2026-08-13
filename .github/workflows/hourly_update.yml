@@ -45,6 +45,11 @@ jobs:
             EXIT 1
           }
           .\Increment-ManifestVersion.ps1
+          
+      - name: Update Game Versions
+        shell: pwsh
+        run: .\.github\scripts\Update-GameVersions.ps1
+
       - name: Commit and push changes
         shell: pwsh
         env:

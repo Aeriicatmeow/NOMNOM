@@ -45,7 +45,9 @@ try {
     $null = [version]$Data.version_string
 }
 catch {
-    Write-Error "Validation Error: '$($Data.version_string)' is not a valid version string."
+    $errMsg = "Validation Error: '$($Data.version_string)' is not a valid version string."
+    Write-Error $errMsg
+    Set-Content -Path "error.txt" -Value $errMsg -Encoding utf8
     exit 1
 }
 
@@ -54,7 +56,9 @@ foreach ($ModId in $Data.mod_id_strings) {
     $ManifestPath = Join-Path "modManifests" "$ModId.json"
     
     if (-not (Test-Path $ManifestPath)) {
-        Write-Error "Validation Error: Mod ID '$ModId' does not match any file in the modManifests directory."
+        $errMsg = "Validation Error: Mod ID '$ModId' does not match any file in the modManifests directory."
+        Write-Error $errMsg
+        Set-Content -Path "error.txt" -Value $errMsg -Encoding utf8
         exit 1
     }
 }

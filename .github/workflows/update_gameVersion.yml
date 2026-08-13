@@ -17,11 +17,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Parse Issue to JSON
+        id: parse
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_ID: ${{ github.event.issue.number }}
         run: |
           .\.github\scripts\parse_issue.ps1 -IssueBody $env:ISSUE_BODY -IssueId $env:ISSUE_ID
+
+      - name: Report Failure
+        if: failure() && steps.parse.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $ErrorText = Get-Content error.txt -Raw -ErrorAction SilentlyContinue
+          if (-not $ErrorText) { $ErrorText = "An unknown error occurred during parsing." }
+          $Body = "❌ **Validation Failed:**`n`n\`\`\`text`n$ErrorText`n\`\`\`"
+          gh issue comment ${{ github.event.issue.number }} -b $Body
 
       - name: Commit and Push
         run: |
