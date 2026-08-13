@@ -1,4 +1,14 @@
+name: Update gameVersion
+
 on:
-  issue:
-    types: [template]
-    template: issues/template_gameVersion.yml # replace with your issue template name
+  issues:
+    types: [opened]
+
+jobs:
+  process_issue:
+    # The template_gameVersion.yml template applies the "list-input" label
+    if: contains(github.event.issue.labels.*.name, 'list-input')
+    runs-on: windows-latest
+    steps:
+      - name: Placeholder step
+        run: echo "New issue created from template_gameVersion.yml"

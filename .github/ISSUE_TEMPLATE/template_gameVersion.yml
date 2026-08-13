@@ -10,7 +10,7 @@ body:
 
   # NEW: Input field for a single string value
   - type: input
-    id: single_string
+    id: version_string
     attributes:
       label: Version number
       description: Enter the Nuclear Option Game Version Value
@@ -20,7 +20,7 @@ body:
 
   # Method 2: Textarea (Free-form custom list of strings)
   - type: textarea
-    id: custom_strings
+    id: mod_id_strings
     attributes:
       label: MOD IDs
       description: Enter your custom strings here. Please put one value per line.
