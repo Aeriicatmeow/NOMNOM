@@ -30,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           $ErrorText = Get-Content error.txt -Raw -ErrorAction SilentlyContinue
-          if (-not $ErrorText) { $ErrorText = "An unknown error occurred during parsing." }
+          if (-not $ErrorText) { $ErrorText = "An error occurred during parsing." }
           $Body = '❌ **Validation Failed:**' + "`n`n" + '```text' + "`n" + $ErrorText + "`n" + '```'
           gh issue comment ${{ github.event.issue.number }} -b $Body
 
