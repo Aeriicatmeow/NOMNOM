@@ -2,13 +2,21 @@ name: Update gameVersion
 
 on:
   issues:
-    types: [opened]
+    types: [labeled]
 
 jobs:
   process_issue:
-    # The template_gameVersion.yml template applies the "list-input" label
-    if: contains(github.event.issue.labels.*.name, 'list-input')
+    # Runs ONLY if the newly added label is 'approved' AND it's the correct issue template
+    if: >
+      github.event.label.name == 'approved' &&
+      contains(github.event.issue.labels.*.name, 'list-input')
     runs-on: windows-latest
     steps:
-      - name: Placeholder step
-        run: echo "New issue created from template_gameVersion.yml"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue to JSON
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          .\.github\scripts\parse_issue.ps1 -IssueBody $env:ISSUE_BODY
