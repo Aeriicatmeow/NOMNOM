@@ -1,12 +1,8 @@
 {
   "id": "Sitrep",
   "displayName": "SITREP",
-  "description": "Reads in-game chat aloud via Kokoro TTS with an optional radio DSP effect and chat overlay.",
-  "tags": [
-    "mod",
-    "QoL",
-    "voice"
-  ],
+  "description": "Hear in-game chat as immersive radio traffic. SITREP runs Kokoro TTS locally inside Nuclear Option with 28 selectable voices, per-player voice and signal profiles, favorites, a player blacklist, and a configurable radio DSP chain. Includes a cockpit chat overlay and in-game settings console, downloads its speech models automatically on first launch, and requires no external TTS service. Supports NO Mod Bar for one-click access to the settings console.",
+  "tags": ["mod", "QoL", "voice"],
   "urls": [
     {
       "name": "info",
