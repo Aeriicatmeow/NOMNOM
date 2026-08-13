@@ -1,7 +1,10 @@
 [CmdletBinding()]
 param (
-    [Parameter(Mandatory=$true)]
-    [string]$IssueBody
+    [Parameter(Mandatory = $true)]
+    [string]$IssueBody,
+
+    [Parameter(Mandatory = $true)]
+    [string]$IssueId
 )
 
 # Initialize an ordered dictionary to keep the JSON output structure clean
@@ -37,6 +40,25 @@ foreach ($Line in ($IssueBody -split "`r?`n")) {
     }
 }
 
+# Validation: Version string must be castable to [version]
+try {
+    $null = [version]$Data.version_string
+}
+catch {
+    Write-Error "Validation Error: '$($Data.version_string)' is not a valid version string."
+    exit 1
+}
+
+# Validation: Mod IDs must match files in the modManifests directory
+foreach ($ModId in $Data.mod_id_strings) {
+    $ManifestPath = Join-Path "modManifests" "$ModId.json"
+    
+    if (-not (Test-Path $ManifestPath)) {
+        Write-Error "Validation Error: Mod ID '$ModId' does not match any file in the modManifests directory."
+        exit 1
+    }
+}
+
 # Convert the list to a standard array for correct JSON formatting
 $OutputObj = [ordered]@{
     version_string = $Data.version_string
@@ -46,3 +68,12 @@ $OutputObj = [ordered]@{
 # Print as JSON
 $JsonOutput = $OutputObj | ConvertTo-Json -Depth 5
 Write-Output $JsonOutput
+
+# Save to cache directory
+$TargetDir = "gameVersionUpdateCache"
+if (-not (Test-Path $TargetDir)) {
+    New-Item -ItemType Directory -Path $TargetDir | Out-Null
+}
+$FilePath = Join-Path $TargetDir "$IssueId.json"
+$JsonOutput | Set-Content -Path $FilePath -Encoding utf8
+Write-Host "Saved JSON to $FilePath"
