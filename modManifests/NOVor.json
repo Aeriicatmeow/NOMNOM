@@ -2,7 +2,12 @@
   "id": "NOVor",
   "displayName": "NO VOR CDI",
   "description": "Turn every airfield and mobile carrier into an in-cockpit navigation destination. A searchable, faction-aware panel shows bearing, range, runway courses, ground speed, ETA, and elevation, while heading-tape cues and a VOR-style CDI provide direct-to guidance or manual-course tracking. Includes nearest/name sorting, friendly-only filtering, a position-adjustable HUD, and configurable hotkeys. Supports NO Mod Bar for one-click access to the navigation panel.",
-  "tags": ["mod", "QoL", "HUD", "Navigation"],
+  "tags": [
+    "mod",
+    "QoL",
+    "HUD",
+    "Navigation"
+  ],
   "urls": [
     {
       "name": "info",
