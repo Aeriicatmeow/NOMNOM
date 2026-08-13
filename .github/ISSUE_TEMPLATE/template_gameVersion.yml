@@ -12,9 +12,9 @@ body:
   - type: input
     id: single_string
     attributes:
-      label: Single String Value
-      description: Enter a single string, such as a name or identifier.
-      placeholder: e.g., my-identifier-123
+      label: Version number
+      description: Enter the Nuclear Option Game Version Value
+      placeholder: e.g., 0.34.2
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: custom_strings
     attributes:
-      label: Custom List of Strings
+      label: MOD IDs
       description: Enter your custom strings here. Please put one value per line.
       placeholder: |
         first_string
