@@ -1,6 +1,6 @@
 name: Update gameVersion
 description: Use this template to submit a list of MOD IDs and a gameVersion tag value.\n Their latest release artifacts gameVersion value will be updated to the given value.
-title: "[List Submission]: "
+title: "[Update gameVersion tag]: "
 labels: ["list-input"]
 body:
   - type: markdown
