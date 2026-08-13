@@ -6,8 +6,8 @@ on:
 
 jobs:
   process_issue:
-    # Runs ONLY if the newly added label is 'gameVersion Update' AND it's the correct issue template
-    if: github.event.label.name == 'gameVersion Update' && contains(github.event.issue.labels.*.name, 'list-input')
+    # Runs ONLY if the newly added label is 'gameVersion Update'
+    if: github.event.label.name == 'gameVersion Update'
     runs-on: windows-latest
     steps:
       - name: Checkout repository
