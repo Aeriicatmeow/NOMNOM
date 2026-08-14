@@ -37,6 +37,9 @@ jobs:
             exit 1
           fi
 
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
       - name: Download, Hash, and Check Resolution
         id: image_analyzer
         env:
@@ -70,12 +73,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          $Body = "❌ **Validation Failed:** Please check the workflow logs for details."
-          if (Test-Path error.txt) {
-            $ErrorText = Get-Content error.txt -Raw
-            $Body += "`n`n\`\`\`text`n$ErrorText`n\`\`\`"
-          }
-          gh issue comment ${{ github.event.issue.number }} -b "$Body"
+          $ErrorText = Get-Content error.txt -Raw -ErrorAction SilentlyContinue
+          if (-not $ErrorText) { $ErrorText = "An error occurred during parsing." }
+          $Body = '❌ **Validation Failed:** Please check the workflow logs for details.' + "`n`n" + '```text' + "`n" + $ErrorText + "`n" + '```'
+          gh issue comment ${{ github.event.issue.number }} -b $Body
         shell: pwsh
 
       - name: Commit and Push
