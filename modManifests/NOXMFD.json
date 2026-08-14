@@ -24,7 +24,7 @@
       "version": "0.19.3",
       "category": "release",
       "type": "plugin",
-      "gameVersion": "0.33",
+      "gameVersion": "0.34.1",
       "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.19.3/NOXMFD_0.19.3.zip",
       "hash": "sha256:ef6be1fe1827ab562513652edb828aedbee8f4c785f0a00fa519f8f344fbe815"
     },
