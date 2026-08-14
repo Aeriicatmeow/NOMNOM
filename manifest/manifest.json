@@ -649,7 +649,7 @@
         }
       }
     ],
-    "downloadCount": 80241
+    "downloadCount": 80242
   },
   {
     "id": "aryx.f99",
@@ -1021,7 +1021,7 @@
         }
       }
     ],
-    "downloadCount": 42816
+    "downloadCount": 42820
   },
   {
     "id": "aryx.mc260",
@@ -1298,7 +1298,7 @@
         }
       }
     ],
-    "downloadCount": 76419
+    "downloadCount": 76421
   },
   {
     "id": "aryx.mig15",
@@ -1393,7 +1393,7 @@
         }
       }
     ],
-    "downloadCount": 28457
+    "downloadCount": 28458
   },
   {
     "id": "aryx.navex",
@@ -1475,7 +1475,7 @@
         }
       }
     ],
-    "downloadCount": 24711
+    "downloadCount": 24713
   },
   {
     "id": "aryx.rah72",
@@ -1730,7 +1730,7 @@
         }
       }
     ],
-    "downloadCount": 6619
+    "downloadCount": 6620
   },
   {
     "id": "AShM500Yashma",
@@ -2026,7 +2026,7 @@
         }
       }
     ],
-    "downloadCount": 35671
+    "downloadCount": 35673
   },
   {
     "id": "blueprinter.ternion",
@@ -2245,7 +2245,7 @@
         }
       }
     ],
-    "downloadCount": 34138
+    "downloadCount": 34142
   },
   {
     "id": "CameraPresets",
@@ -3933,7 +3933,7 @@
         "downloadUrl": "https://github.com/9138noms/FrontlineMap/releases/download/v1.2.1/FrontlineMap.dll"
       }
     ],
-    "downloadCount": 14239
+    "downloadCount": 14241
   },
   {
     "id": "FunnelGunSightMod",
@@ -4552,7 +4552,7 @@
         }
       }
     ],
-    "downloadCount": 29782
+    "downloadCount": 29784
   },
   {
     "id": "klawshout_voice",
@@ -8403,7 +8403,6 @@
     "authors": [
       "KopterBuzz"
     ],
-    "isClientOrServer": "Both",
     "githubOwner": "KopterBuzz",
     "githubRepoName": "NOBlackBox",
     "autoUpdateArtifacts": "True",
@@ -8471,7 +8470,8 @@
     ],
     "downloadCount": 5351,
     "imageUrl": "https://www.tacview.net/img/ico-tacview.png",
-    "imageHash": "ce9298cdcef30b7694a2dcc58bc50222b9b41954da553ff6588133964df605fa"
+    "imageHash": "ce9298cdcef30b7694a2dcc58bc50222b9b41954da553ff6588133964df605fa",
+    "isClientOrServer": "Both"
   },
   {
     "id": "NOCobra",
@@ -9391,7 +9391,7 @@
         ]
       }
     ],
-    "downloadCount": 16129
+    "downloadCount": 16130
   },
   {
     "id": "NOXMFD",
@@ -9700,7 +9700,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 5293
+    "downloadCount": 5294
   },
   {
     "id": "NuclearOption-InfiniteAmmo",
@@ -10144,7 +10144,7 @@
         "hash": "sha256:a9931eab5c593e3d3f5676a16ddf54fd0b5e54e06f226fb7695d698602bad50a"
       }
     ],
-    "downloadCount": 216
+    "downloadCount": 218
   },
   {
     "id": "NuclearVOIP",
@@ -10401,7 +10401,7 @@
         "hash": "sha256:9829adb5135f08d0b129453cb685628a7def130371f8f9770f5d3baf28feb66e"
       }
     ],
-    "downloadCount": 9026
+    "downloadCount": 9027
   },
   {
     "id": "Pauel3312.NOKillWeapons",
@@ -11419,7 +11419,7 @@
         "downloadUrl": "https://github.com/9138noms/ThirdFaction/releases/download/v1.0.0/ThirdFaction.dll"
       }
     ],
-    "downloadCount": 5164
+    "downloadCount": 5165
   },
   {
     "id": "UndelayedThrottle",
@@ -11541,7 +11541,7 @@
         ]
       }
     ],
-    "downloadCount": 6011
+    "downloadCount": 6012
   },
   {
     "id": "uuvr",
@@ -11604,7 +11604,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-VehicleControl/releases/download/v2.3.2/VehicleControl.zip"
       }
     ],
-    "downloadCount": 7475
+    "downloadCount": 7476
   },
   {
     "id": "WeatherController",
