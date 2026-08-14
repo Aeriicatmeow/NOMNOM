@@ -35,7 +35,7 @@
       "version": "1.5.0",
       "category": "release",
       "type": "addon",
-      "gameVersion": "0.33",
+      "gameVersion": "0.34.2",
       "downloadUrl": "https://github.com/MinecrackTyler/BoscaliOceanTrainingExercise/releases/download/v1.5.0/Bote_1.5.0.dll",
       "hash": "sha256:259e7daea0b99868a1062d2c3f82afae9081e2be0edefcd28ce36cd976da612c",
       "extends": {
@@ -161,5 +161,5 @@
       }
     }
   ],
-  "downloadCount": 33822
+  "downloadCount": 33858
 }
