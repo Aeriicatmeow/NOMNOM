@@ -10,6 +10,8 @@
       "type" : "array",
       "items" : {"type" : "string"}
     },
+    "imageUrl": { "type": "string", "format": "uri" },
+    "imageHash": { "type": "string" },
     "urls": { 
       "type": "array",
       "items": {

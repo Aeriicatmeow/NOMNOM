@@ -1,0 +1,92 @@
+name: Update Mod Image
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process_issue:
+    # Runs ONLY if the newly added label is 'Mod Image Update'
+    if: github.event.label.name == 'Mod Image Update' && github.repository == 'KopterBuzz/NOMNOM'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue
+        id: parse
+        shell: pwsh
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_ID: ${{ github.event.issue.number }}
+        run: |
+          .\.github\scripts\parse_mod_image_issue.ps1 -IssueBody $env:ISSUE_BODY -IssueId $env:ISSUE_ID
+
+      - name: Read Parsed Data
+        id: read_data
+        run: |
+          JSON_PATH="modImageUpdateCache/${{ github.event.issue.number }}.json"
+          if [ -f "$JSON_PATH" ]; then
+            IMAGE_URL=$(jq -r '.image_url' "$JSON_PATH")
+            echo "image_url=$IMAGE_URL" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::JSON file not found!"
+            exit 1
+          fi
+
+      - name: Download, Hash, and Check Resolution
+        id: image_analyzer
+        env:
+          IMAGE_URL: ${{ steps.read_data.outputs.image_url }}
+        run: |
+          # 1. Download the image
+          curl -s -L -o temp_image.png "$IMAGE_URL"
+          
+          # 2. Extract resolution using ImageMagick
+          WIDTH=$(identify -format "%w" temp_image.png)
+          HEIGHT=$(identify -format "%h" temp_image.png)
+          
+          # 3. Calculate SHA-256 hash
+          HASH=$(sha256sum temp_image.png | awk '{ print $1 }')
+          
+          echo "Resolution: ${WIDTH}x${HEIGHT}"
+          echo "SHA-256 Hash: $HASH"
+          
+          # 4. Enforce 512x512 maximum resolution constraint
+          if [ "$WIDTH" -gt 512 ] || [ "$HEIGHT" -gt 512 ]; then
+            echo "::error::Image exceeds maximum dimensions of 512x512! Detected: ${WIDTH}x${HEIGHT}"
+            exit 1
+          fi
+          
+          echo "width=$WIDTH" >> "$GITHUB_OUTPUT"
+          echo "height=$HEIGHT" >> "$GITHUB_OUTPUT"
+          echo "hash=$HASH" >> "$GITHUB_OUTPUT"
+
+      - name: Report Failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $Body = "❌ **Validation Failed:** Please check the workflow logs for details."
+          if (Test-Path error.txt) {
+            $ErrorText = Get-Content error.txt -Raw
+            $Body += "`n`n\`\`\`text`n$ErrorText`n\`\`\`"
+          }
+          gh issue comment ${{ github.event.issue.number }} -b "$Body"
+        shell: pwsh
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add modImageUpdateCache/
+          git commit -m "Update modImage cache for issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue close ${{ github.event.issue.number }} --reason "completed"

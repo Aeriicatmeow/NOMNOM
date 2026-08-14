@@ -51,6 +51,10 @@ jobs:
         shell: pwsh
         run: .\.github\scripts\Update-GameVersions.ps1
 
+      - name: Update Mod Image URLs
+        shell: pwsh
+        run: .\.github\scripts\Update-ModImageUrls.ps1
+
       - name: Commit and push changes
         shell: pwsh
         env:
