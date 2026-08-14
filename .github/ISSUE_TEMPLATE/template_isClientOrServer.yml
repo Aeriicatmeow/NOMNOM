@@ -1,5 +1,5 @@
-name: Update Client/Server Status
-description: Use this template to submit a Mod ID and its Client/Server status.
+name: Update isClientOrServer
+description: Use this template to submit a Mod ID and update its isClientOrServer flag.
 title: "[Update isClientOrServer]: "
 labels: ["list-input"]
 body:
