@@ -72,6 +72,34 @@ $TempFile = New-TemporaryFile
 try {
     Invoke-WebRequest -Uri $Data.image_url -OutFile $TempFile.FullName -ErrorAction Stop
     $Hash = (Get-FileHash -Path $TempFile.FullName -Algorithm SHA256).Hash.ToLower()
+
+    # Check Image Resolution natively
+    $Width = 0
+    $Height = 0
+    if ($IsWindows) {
+        Add-Type -AssemblyName System.Drawing
+        $img = [System.Drawing.Image]::FromFile($TempFile.FullName)
+        $Width = $img.Width
+        $Height = $img.Height
+        $img.Dispose()
+    } else {
+        $fileOut = file $TempFile.FullName
+        if ($fileOut -match ",\s*(\d+)\s*x\s*(\d+)(?:,|$)") {
+            $Width = [int]$matches[1]
+            $Height = [int]$matches[2]
+        } else {
+            # Let it pass if we truly can't parse it to avoid blocking blindly, or throw error
+            Write-Warning "Could not parse resolution from file output: $fileOut"
+        }
+    }
+
+    if ($Width -gt 512 -or $Height -gt 512) {
+        $errMsg = "Validation Error: Image exceeds maximum dimensions of 512x512! Detected: ${Width}x${Height}"
+        Write-Error $errMsg
+        Set-Content -Path "error.txt" -Value $errMsg -Encoding utf8
+        Remove-Item $TempFile.FullName -Force
+        exit 1
+    }
 }
 catch {
     $errMsg = "Validation Error: Failed to download image from '$($Data.image_url)'."
