@@ -37,8 +37,10 @@ foreach ($File in $CacheFiles) {
         $Manifest = Get-Content $ManifestPath -Raw | ConvertFrom-Json
         
         $OldUrl = $Manifest.imageUrl
-        $Manifest.imageUrl = $ImageUrl
-        $Manifest.imageHash = $Data.image_hash
+        
+        $Manifest | Add-Member -MemberType NoteProperty -Name "imageUrl" -Value $ImageUrl -Force
+        $Manifest | Add-Member -MemberType NoteProperty -Name "imageHash" -Value $Data.image_hash -Force
+        
         Write-Host "  [$ModId] Updated imageUrl from '$OldUrl' to '$ImageUrl' and updated imageHash"
         
         # Save back the JSON
