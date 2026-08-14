@@ -27,6 +27,10 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "isClientOrServer": {
+      "type": "string",
+      "enum": ["Client", "Server", "Both"]
+    },
     "githubOwner" : {"type": "string"},
     "githubRepoName" : {"type": "string"},
     "autoUpdateArtifacts" : {"type": "string"},

@@ -15,6 +15,7 @@
   "authors": [
     "KopterBuzz"
   ],
+  "isClientOrServer": "Both",
   "githubOwner": "KopterBuzz",
   "githubRepoName": "NOBlackBox",
   "autoUpdateArtifacts": "True",
