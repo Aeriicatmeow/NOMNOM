@@ -55,6 +55,10 @@ jobs:
         shell: pwsh
         run: .\.github\scripts\Update-ModImageUrls.ps1
 
+      - name: Update Client/Server Status
+        shell: pwsh
+        run: .\.github\scripts\Update-IsClientOrServer.ps1
+
       - name: Commit and push changes
         shell: pwsh
         env:
