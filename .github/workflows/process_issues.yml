@@ -91,8 +91,8 @@ jobs:
         run: gh issue close ${{ github.event.issue.number }} --reason "completed"
 
   update_client_server_status:
-    name: Update Client/Server Status
-    if: github.event.label.name == 'Client Server Update' && github.repository == 'KopterBuzz/NOMNOM'
+    name: Update isClientOrServer
+    if: github.event.label.name == 'isClientOrServer Update' && github.repository == 'KopterBuzz/NOMNOM'
     runs-on: ubuntu-latest
     permissions:
       contents: write
