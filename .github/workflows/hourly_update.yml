@@ -17,6 +17,7 @@ permissions:
   
 jobs:
   update-files:
+    if: github.repository == 'KopterBuzz/NOMNOM'
     runs-on: windows-latest
     
     steps:
